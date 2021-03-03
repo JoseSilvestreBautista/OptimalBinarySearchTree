@@ -10,7 +10,13 @@ public class Main {
   static double[][] e;
   static double[][] w;
   static double[][] root;
+  /**
+   * Number of probabilities needed for each key set
+   */
   static int[] probabilitySizes = {21, 201, 2001, 20001, 200001};
+  /**
+   * A limit that helps distribution of probability.
+   */
   static double[] boundaries = {.09, .009, .00099, .000099, .0000099};
   static String[] rootMatrixFile = {"10key_rootMatrix.txt", "100key_rootMatrix.txt",
       "1000key_rootMatrix.txt",
@@ -40,6 +46,13 @@ public class Main {
     }
   }
 
+  /**
+   * Finds optimal BST
+   *
+   * @param p successful probability
+   * @param q unsuccessful probability
+   * @param n size of p and q array
+   */
   public static void OptimalBST(double[] p, double[] q, int n) {
     e = new double[n + 1][n];
     w = new double[n + 1][n];
@@ -68,6 +81,15 @@ public class Main {
     }
   }
 
+  /**
+   * Makes probabilities and stores them in txt files
+   *
+   * @param size          Total number of probabilities needed
+   * @param boundary      limit the size of probability generated
+   * @param p             successful probability
+   * @param q             unsuccessful probability
+   * @param inputFileName holds the file name for each key set
+   */
   public static void generateRandomNumbers(int size, double boundary, double[] p, double[] q,
       String inputFileName) {
     p[0] = 0;
@@ -110,6 +132,9 @@ public class Main {
 //    System.out.println("q: " + Arrays.toString(q));
   }
 
+  /**
+   * Prints what is in the root, e, and w matrix to the prompt
+   */
   public static void printMtrices() {
     System.out.println("root:");
     for (double[] row : root) {
@@ -126,6 +151,13 @@ public class Main {
 
   }
 
+  /**
+   * Saves matrices to txt files
+   *
+   * @param eFileName    has the file name for the e matrices
+   * @param wFileName    has the file name for the w matrices
+   * @param rootFileName has the file name for the root matrices
+   */
   static void writeToFile(String eFileName, String wFileName, String rootFileName) {
     try {
       FileWriter myWriter = new FileWriter(eFileName);
@@ -155,7 +187,11 @@ public class Main {
     }
   }
 
-  static void createTree(int indent, int node) {
+  /**
+   * Was supposed to print the root matrix into a shape of a tree. I could not properly create a
+   * method to accomplish this.
+   */
+  static void createTree() {
 
   }
 
