@@ -11,5 +11,5 @@ Searchable Items with their weights listed.
  
  Search time table for each Item.
  
- ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/image.png)
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/eTable.PNG)
 
