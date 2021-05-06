@@ -1,2 +1,2 @@
 # OptimalBinarySearchTree
-The Program only displays time completion for each input run i.e 10, 100, and so on keys in the OptimalBST(double[] p, double[] q, int n) method. The program also informs the user that the generated probabilities and e, w, and root matrix are saved. Navigate to the proper files to find needed information.  
+The Program finds the optimal binary search through dynamic programming. The program considers the weights associated with each searchable item and the search time cost. It stores all this information into tables to build the optimal search tree through a root table. The optimal binary search tree has a time complexity of O(n^3). <br />
