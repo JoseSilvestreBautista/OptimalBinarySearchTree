@@ -16,5 +16,7 @@ Search time table for each Item.
 Weight table of each searchable item. 
 
  ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/wTable.PNG)
+ 
+Suggested binary search tree structure.
 
-
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/rootTable.PNG)
