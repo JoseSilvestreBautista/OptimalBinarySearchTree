@@ -7,6 +7,9 @@ Searchable Items with their weights listed.
 * pi is the probability of selecting the item correctly 
 * qi is the probability of not selecting the item. 
 
-
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/image.png)
+ 
+ Search time table for each Item.
+ 
  ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/image.png)
 
