@@ -9,7 +9,12 @@ Searchable Items with their weights listed.
 
  ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/image.png)
  
- Search time table for each Item.
+Search time table for each Item.
  
  ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/eTable.PNG)
+ 
+Weight table of each searchable item. 
+
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/wTable.PNG)
+
 
