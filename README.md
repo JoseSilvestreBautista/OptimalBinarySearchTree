@@ -7,16 +7,16 @@ Searchable Items with their weights listed.
 * pi is the probability of selecting the item correctly 
 * qi is the probability of not selecting the item. 
 
- ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/image.png)
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/images/eTable.PNG)
  
 Search time table for each Item.
  
- ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/eTable.PNG)
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/images/eTable.PNG)
  
 Weight table of each searchable item. 
 
- ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/wTable.PNG)
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/images/wTable.PNG)
  
 Suggested binary search tree structure.
 
- ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/rootTable.PNG)
+ ![Sample Image](https://github.com/JoseSilvestreBautista/OptimalBinarySearchTree/blob/master/images/rootTable.PNG)
